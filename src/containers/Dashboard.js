@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import Home from "../components/Home"
+import Dashboard from "../components/Dashboard"
 
 
 const mapStateToProps = (state) => {
@@ -8,4 +8,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps)(Home)
+export default connect(mapStateToProps)(Dashboard)
